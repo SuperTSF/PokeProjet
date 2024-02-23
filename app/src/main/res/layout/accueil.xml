@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pokedex"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:text="Pokédex"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pokedex"
+            android:layout_margin="20px"
+            android:text="Menu"/>
+
+        <EditText
+            android:id="@+id/recherche"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/pokedex"
+            android:layout_toRightOf="@+id/toolbar"
+            android:hint="Poke-Recherche" />
+
+        <ImageButton
+            android:id="@+id/gen1"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_below="@id/recherche"
+            android:layout_margin="100px"
+            android:background="@drawable/gen1"/>
+
+        <ImageButton
+            android:id="@+id/gen2"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_below="@id/recherche"
+            android:layout_toEndOf="@id/gen1"
+            android:layout_margin="100px"
+            android:background="@drawable/gen2"/>
+
+        <ImageButton
+            android:id="@+id/gen3"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_below="@id/gen1"
+            android:layout_margin="100px"
+            android:background="@drawable/gen3"/>
+
+        <ImageButton
+            android:id="@+id/gen4"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_below="@id/gen2"
+            android:layout_toEndOf="@id/gen3"
+            android:layout_margin="100px"
+            android:background="@drawable/gen4"/>
+
+        <ImageButton
+            android:id="@+id/gen5"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_below="@id/gen3"
+            android:layout_margin="100px"
+            android:background="@drawable/gen5"/>
+
+        <ImageButton
+            android:id="@+id/gen6"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_below="@id/gen3"
+            android:layout_toEndOf="@id/gen5"
+            android:layout_margin="100px"
+            android:background="@drawable/gen6"/>
+
+        <ImageButton
+            android:id="@+id/gen7"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_below="@id/gen5"
+            android:layout_margin="100px"
+            android:background="@drawable/gen7"/>
+
+        <ImageButton
+            android:id="@+id/gen8"
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_below="@id/gen6"
+            android:layout_toEndOf="@id/gen7"
+            android:layout_margin="100px"
+            android:background="@drawable/gen8"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>
