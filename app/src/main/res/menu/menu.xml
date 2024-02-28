@@ -10,4 +10,5 @@
         android:id="@+id/menu_item3"
         android:title="Clair / Sombre"/>
     <!-- Add more menu items as needed -->
+
 </menu>

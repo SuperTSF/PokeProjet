@@ -22,10 +22,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        this.setContentView(R.layout.accueil);
+       setContentView(R.layout.accueil);
 
-        Button menuButton = findViewById(R.id.toolbar);
+        Button menuButton = findViewById(R.id.menu);
         menuButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
