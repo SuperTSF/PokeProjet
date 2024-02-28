@@ -1,8 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.PokeProjet" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/black</item> <!-- Couleur principale -->
-        <item name="android:windowBackground">@color/pink</item>
+        <item name="colorPrimary">@color/pink</item> <!-- Couleur principale -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
     </style>
 
     <style name="Theme.PokeProjet" parent="Base.Theme.PokeProjet" />
