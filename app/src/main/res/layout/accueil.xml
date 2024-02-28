@@ -62,7 +62,8 @@
             android:layout_marginTop="40dp"
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="40dp"
-            android:background="@drawable/gen1" />
+            android:background="@drawable/gen1"
+            android:onClick="genOne"/>
 
         <ImageButton
             android:id="@+id/gen2"
@@ -72,7 +73,8 @@
             android:layout_marginTop="40dp"
             android:layout_marginBottom="40dp"
             android:layout_toEndOf="@id/gen1"
-            android:background="@drawable/gen2"/>
+            android:background="@drawable/gen2"
+            android:onClick="genTwo"/>
 
         <ImageButton
             android:id="@+id/gen3"
@@ -81,7 +83,9 @@
             android:layout_below="@id/gen1"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
-            android:background="@drawable/gen3"/>
+            android:background="@drawable/gen3"
+            android:onClick="genThree"/>
+
 
         <ImageButton
             android:id="@+id/gen4"
@@ -90,7 +94,8 @@
             android:layout_below="@id/gen2"
             android:layout_toEndOf="@id/gen3"
             android:layout_marginBottom="40dp"
-            android:background="@drawable/gen4"/>
+            android:background="@drawable/gen4"
+            android:onClick="genFour"/>
 
         <ImageButton
             android:id="@+id/gen5"
@@ -100,7 +105,8 @@
             android:layout_marginTop="40dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
-            android:background="@drawable/gen5"/>
+            android:background="@drawable/gen5"
+            android:onClick="genFive"/>
 
         <ImageButton
             android:id="@+id/gen6"
@@ -110,7 +116,8 @@
             android:layout_toEndOf="@id/gen5"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="40dp"
-            android:background="@drawable/gen6"/>
+            android:background="@drawable/gen6"
+            android:onClick="genSix"/>
 
         <ImageButton
             android:id="@+id/gen7"
@@ -120,7 +127,8 @@
             android:layout_marginTop="40dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
-            android:background="@drawable/gen7"/>
+            android:background="@drawable/gen7"
+            android:onClick="genSeven"/>
 
         <ImageButton
             android:id="@+id/gen8"
@@ -129,7 +137,8 @@
             android:layout_below="@id/gen6"
             android:layout_toEndOf="@id/gen7"
             android:layout_marginBottom="40dp"
-            android:background="@drawable/gen8"/>
+            android:background="@drawable/gen8"
+            android:onClick="genEight"/>
 
 
 

@@ -4,10 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
@@ -17,6 +15,9 @@ import android.widget.PopupMenu;
 public class MainActivity extends AppCompatActivity {
 
     String url = "https://pokeapi.co/api/v2/pokemon";
+
+    public static int start;
+    public static int end;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +63,43 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    public void genOne(View v) {
+        Intent intent = new Intent(this, PokeListActivityGenOne.class);
+        startActivity(intent);
+    }
+
+    public void genTwo(View v) {
+        Intent intent = new Intent(this, PokeListActivityGenTwo.class);
+        startActivity(intent);
+    }
+
+    public void genThree(View v) {
+        Intent intent = new Intent(this, PokeListActivityGenThree.class);
+        startActivity(intent);
+    }
+    public void genFour(View v) {
+        Intent intent = new Intent(this, PokeListActivityGenFour.class);
+        startActivity(intent);
+    }
+    public void genFive(View v) {
+        Intent intent = new Intent(this, PokeListActivityGenFive.class);
+        startActivity(intent);
+    }
+    public void genSix(View v) {
+        Intent intent = new Intent(this, PokeListActivityGenSix.class);
+        startActivity(intent);
+    }
+    public void genSeven(View v) {
+        Intent intent = new Intent(this, PokeListActivityGenSeven.class);
+        startActivity(intent);
+    }
+    public void genEight(View v) {
+        Intent intent = new Intent(this, PokeListActivityGenEight.class);
+        startActivity(intent);
+    }
+
+
     private void toggleTheme() {
         int nightModeFlags = getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
         if (nightModeFlags == Configuration.UI_MODE_NIGHT_YES) {

@@ -23,6 +23,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PokeListActivityGenOne"></activity>
+        <activity android:name=".PokeListActivityGenTwo"></activity>
+        <activity android:name=".PokeListActivityGenThree"></activity>
+        <activity android:name=".PokeListActivityGenFour"></activity>
+        <activity android:name=".PokeListActivityGenFive"></activity>
+        <activity android:name=".PokeListActivityGenSix"></activity>
+        <activity android:name=".PokeListActivityGenSeven"></activity>
+        <activity android:name=".PokeListActivityGenEight"></activity>
+
     </application>
 
 </manifest>
