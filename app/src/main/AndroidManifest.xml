@@ -24,14 +24,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PokeListActivityGenOne"></activity>
-        <activity android:name=".PokeListActivityGenTwo"></activity>
-        <activity android:name=".PokeListActivityGenThree"></activity>
-        <activity android:name=".PokeListActivityGenFour"></activity>
-        <activity android:name=".PokeListActivityGenFive"></activity>
-        <activity android:name=".PokeListActivityGenSix"></activity>
-        <activity android:name=".PokeListActivityGenSeven"></activity>
-        <activity android:name=".PokeListActivityGenEight"></activity>
+        <activity android:name=".PokeListActivityGenOne" android:screenOrientation="portrait"></activity>
+        <activity android:name=".PokeListActivityGenTwo" android:screenOrientation="portrait"></activity>
+        <activity android:name=".PokeListActivityGenThree" android:screenOrientation="portrait"></activity>
+        <activity android:name=".PokeListActivityGenFour" android:screenOrientation="portrait"></activity>
+        <activity android:name=".PokeListActivityGenFive" android:screenOrientation="portrait"></activity>
+        <activity android:name=".PokeListActivityGenSix" android:screenOrientation="portrait"></activity>
+        <activity android:name=".PokeListActivityGenSeven" android:screenOrientation="portrait"></activity>
+        <activity android:name=".PokeListActivityGenEight" android:screenOrientation="portrait"></activity>
 
     </application>
 

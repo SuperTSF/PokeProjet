@@ -1,7 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.PokeProjet" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/nightblue</item> <!-- Couleur principale -->
-        <item name="android:windowBackground">@color/black</item>
+        <item name="colorPrimary">@color/nuit_start</item> <!-- Couleur principale -->
+        <item name="android:windowBackground">@drawable/gradient_nuit</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorTertiary">@color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 </resources>

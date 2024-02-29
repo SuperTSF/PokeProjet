@@ -22,8 +22,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
-            android:text="Menu"
-            android:textColor="@color/white"/>
+            android:text="MENU"
+            android:textColor="?attr/colorSecondary"/>
 
         <EditText
             android:id="@+id/recherche"
